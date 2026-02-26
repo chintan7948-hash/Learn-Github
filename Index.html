@@ -1,60 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Character Encoding -->
     <meta charset="UTF-8">
-
-    <!-- Page Title (SEO ke liye bohot important) -->
-    <title>Best Digital Marketing Services in Pakistan</title>
-
-    <!-- Meta Description (Google search result me show hoti hai) -->
-    <meta name="description" content="We provide best digital marketing, SEO and web development services in Pakistan at affordable prices.">
-
-    <!-- Keywords (ab itna strong nahi, lekin basic ke liye) -->
-    <meta name="keywords" content="SEO services, digital marketing, web development, Pakistan">
-
-    <!-- Author -->
-    <meta name="author" content="Your Company Name">
-
-    <!-- Mobile Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.example.com/">
-
+    <title>All Major HTML Tags Demo Page - 2026</title>
+    <style> 
+        table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    </style>
 </head>
 <body>
 
-    <!-- H1 sirf aik dafa use karo -->
-    <h1>Best Digital Marketing Services in Pakistan</h1>
+    <h1>One Page Showing Almost All Tag</h1>
+    <p class="small-note">This single page demonstrates nearly all major HTML5 tags in real.</p>
 
-    <!-- SEO friendly paragraph -->
-    <p>
-        We offer professional <strong>SEO services</strong>, web development and digital marketing 
-        solutions to help your business grow online.
+    <!-- ============================================== -->
+
+    <section>
+        <h2>1. Document & Head Tags</h2>
+        <p>These usually live inside <code>&lt;head&gt;</code> (shown here outside just for demo):</p>
+        <ul>
+            <li><code>&lt;title&gt;</code> → Page title</li>
+            <li><code>&lt;meta charset="UTF-8"&gt;</code></li>
+            <li><code>&lt;meta name="viewport"&gt;</code></li>
+            <li><code>&lt;link rel="stylesheet"&gt;</code> → CSS link</li>
+            <li><code>&lt;base href="/"&gt;</code> (if needed)</li>
+        </ul>
+    </section>
+
+    <!-- ============================================== -->
+
+    <section>
+        <h2>2. Text Formatting</h2>
+        
+        <p>Normal <strong>strong</strong> and <em>emphasized</em> text</p>
+        <p><b>bold</b> (visual) vs <i>italic</i> (visual)</p>
+        <p><u>underlined</u> and <s>strikethrough</s> and <del>deleted</del> and <ins>inserted</ins></p>
+        <p>This is a <mark>highlighted</mark> word</p>
+        <p>H<sub>2</sub>O and x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup></p>
+        <p><small>This is smaller text (fine print / side comment)</small></p>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy</p>
+        <p><samp>Sample console output: Hello World</samp></p>
+        <p><var>totalPrice</var> = price × quantity</p>
+        <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+        <p>From the book <cite>The Great Gatsby</cite></p>
+        <p><q>Short inline quotation</q> — someone said</p>
+    </section>
+
+    <!-- ============================================== -->
+
+    <section>
+        <h2>3. Semantic / Structural Tags</h2>
+        
+        <header>
+            <h1>Header Area</h1>
+            <nav>
+                <a href="#section1">Section 1</a> |
+                <a href="#section2">Section 2</a>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h2>This is an Article</h2>
+                <p>Independent, reusable content…</p>
+            </article>
+
+            <aside>
+                <h3>Sidebar / Related Info</h3>
+                <p>This is complementary content</p>
+            </aside>
+
+            <section id="section1">
+                <h2>Section 1</h2>
+                <p>A generic thematic grouping</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 • All rights reserved</p>
+        </footer>
+    </section>
+
+    <!-- ============================================== -->
+
+    <section>
+        <h2>4. Lists</h2>
+        
+        <ul>
+            <li>Unordered list item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        <ol>
+            <li>Ordered list item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+
+    <!-- ============================================== -->
+
+    <section>
+        <h2>5. Tables</h2>
+        
+        <table>
+            <caption>Students Result Table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Math</th>
+                    <th>Science</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rahul</td>
+                    <td>89</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>Priya</td>
+                    <td>95</td>
+                    <td>88</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Average</td>
+                    <td>92</td>
+                    <td>90</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- ============================================== -->
+
+    <section>
+        <h2>6. Forms</h2>
+        
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <dr label="Indian">
+
+                        <option value="tata">Tata Punch</option>
+                        <option value="tata">Tata Nexon</option>
+                        <option value="tata">Tata Nexon ( EV )</option>
+                        <option value="tata">Tata Altroz</option>
+                        <option value="mahindra">Mahindra Thar</option>
+                    </dr>
+                    <optgroup label="Foreign">
+                        <option value="tesla">Tesla Model 1</option>
+                        <option value="tesla">Tesla Model 2</option>
+                        <option value="tesla">Tesla Model 3</option>
+                    </optgroup>
+                </select><br><br>
+
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="bio">Biography:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+                <label for="file">Upload file:</label>
+                <input type="file" id="file" name="file"><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- ============================================== -->
+
+    <section>
+        <h2>7. Media & Interactive</h2>
+        
+        <figure>
+            <img src="https://via.placeholder.com/600x300?text=Sample+Image" alt="Sample placeholder image" width="600">
+            <figcaption>This is a sample image with caption</figcaption>
+        </figure>
+
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <details>
+            <summary>Click to read more</summary>
+            <p>Hidden content that expands when clicked.</p>
+        </details>
+
+        <progress value="70" max="100">70%</progress><br>
+        <meter value="0.6">60%</meter>
+    </section>
+
+    <hr>
+
+    <p style="text-align:center; color:#777; margin-top:60px;">
+        This page uses most of the commonly needed HTML tags.
     </p>
-
-    <!-- H2 Sub Heading -->
-    <h2>Our Services</h2>
-
-    <ul>
-        <li>Search Engine Optimization (SEO)</li>
-        <li>Website Development</li>
-        <li>Social Media Marketing</li>
-    </ul>
-
-    <!-- Image with ALT tag (SEO ke liye important) -->
-    <img src="seo-services.jpg" alt="Professional SEO Services in Pakistan">
-
-    <!-- Internal Link -->
-    <p>
-        Learn more about our <a href="services.html">SEO Services</a>.
-    </p>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Your Company Name. All Rights Reserved.</p>
-    </footer>
 
 </body>
 </html>
